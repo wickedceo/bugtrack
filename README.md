@@ -1,32 +1,58 @@
-BugTrack — Bug Tracking & QA Dashboard
+BugTrack
 
-A modern, responsive bug tracking and quality assurance dashboard built with React and TypeScript.
+Bug Tracking & Quality Assurance Dashboard
 
-BugTrack provides a centralised interface for managing software bugs, monitoring issue severity, tracking report statuses, and organising QA workflows.
+<div align="center">
+
+A centralised workspace for tracking software defects, monitoring issue severity, and organising QA workflows.
+
+</div>
+
+⸻
+
+Overview
+
+BugTrack is a modern, responsive bug tracking and quality assurance dashboard built with React and TypeScript.
+
+It provides a centralised interface for documenting software defects, managing bug reports, monitoring issue severity, and organising testing workflows.
+
+Designed with a clean, dark-themed interface, BugTrack brings essential issue-tracking functionality into one accessible workspace.
 
 Features
 
-* Dashboard Overview — View bug statistics and issue summaries.
-* Bug Reports — Browse and manage reported software issues.
-* Create Bug Reports — Submit new bug reports with relevant details.
-* Search — Quickly find specific bug reports.
-* Status Filtering — Filter issues by their current status.
-* Severity Filtering — Organise bugs according to severity.
-* Issue Details — Capture descriptions, reproduction steps, expected and actual results, browser and device information.
-* Responsive Interface — Designed for different screen sizes.
-* Modern UI — Dark-themed dashboard with a clean, professional interface.
+Feature	Description
+Dashboard Overview	Monitor bug statistics and issue summaries.
+Bug Reports	Browse and manage reported software issues.
+Report Creation	Submit new bug reports with relevant information.
+Search	Quickly locate specific bug reports.
+Status Filtering	Filter issues by their current status.
+Severity Filtering	Organise issues according to severity.
+Issue Details	Document descriptions, reproduction steps, expected and actual results, browser and device information.
+Responsive Design	Adaptable interface for different screen sizes.
+Modern UI	Dark-themed dashboard with a clean, professional layout.
 
-Tech Stack
+Technology Stack
+
+Frontend
 
 * React
 * TypeScript
-* Vite
+* JavaScript (ES Modules)
 * CSS
-* JavaScript / ES Modules
+
+Development Tools
+
+* Vite
+* npm
+* Git
 
 Getting Started
 
+Follow these instructions to run BugTrack locally.
+
 Prerequisites
+
+Ensure the following tools are installed:
 
 * Node.js
 * npm
@@ -34,31 +60,31 @@ Prerequisites
 
 Installation
 
-Clone the repository:
+1. Clone the repository
 
 git clone https://github.com/wickedceo/bugtrack.git
 
-Navigate into the application:
+2. Navigate to the application directory
 
 cd bugtrack/app
 
-Install dependencies:
+3. Install dependencies
 
 npm install
 
-Start the development server:
+4. Start the development server
 
 npm run dev
 
-To run inside GitHub Codespaces:
+GitHub Codespaces
+
+To expose the development server through Codespaces, run:
 
 npm run dev -- --host 0.0.0.0
 
-Current Data Handling
+Application Architecture
 
-BugTrack currently uses in-memory application state for its demonstration data. Reports are not yet connected to a persistent database, so changes reset when the application is refreshed.
-
-Project Structure
+Current project structure:
 
 bugtrack/
 ├── app/
@@ -70,16 +96,41 @@ bugtrack/
 ├── README.md
 └── LICENSE
 
-Project Status
+Data Handling
 
-Active development.
+BugTrack currently uses in-memory application state for demonstration data.
 
-Author
+Current limitation: Bug reports are not yet connected to a persistent database. Changes made during a session are therefore reset when the application is refreshed.
+
+Persistent data storage is outside the current implementation.
+
+Development Status
+
+Active Development
+
+BugTrack is an evolving project focused on bug management, issue visibility, and quality assurance workflows.
+
+Features and implementation may evolve as development continues.
+
+Author & Ownership
 
 WICKEDCEO
 
-GitHub: https://github.com/wickedceo
+Independent software development and digital product engineering.
+
+* GitHub: @wickedceo
+* Repository: BugTrack
+
+All original project work and intellectual property are owned by WICKEDCEO, subject to the terms of the repository’s LICENSE.
 
 ⸻
 
-Built as a software development and QA portfolio project.
+<div align="center">
+
+BUGTRACK
+
+Identify. Track. Resolve.
+
+Developed by WICKEDCEO
+
+</div>
