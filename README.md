@@ -136,8 +136,10 @@ To expose the development server in Codespaces:
 
 npm run dev -- --host 0.0.0.0
 
-◈ PROJECT STRUCTURE
 
+## ◈ PROJECT STRUCTURE
+
+```text
 bugtrack/
 │
 ├── app/
@@ -149,6 +151,7 @@ bugtrack/
 │
 ├── README.md
 └── LICENSE
+```
 
 ◈ DATA HANDLING
 
